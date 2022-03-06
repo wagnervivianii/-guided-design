@@ -2,7 +2,7 @@
 #top{
   display: flex;
   justify-content: flex-start;
-  background-image: linear-gradient(rgba(59, 59, 255, 0.6), rgba(111, 45, 149, 0.6))
+  background-image: linear-gradient(rgba(59, 59, 255, 0.3), rgba(111, 45, 149, 0.2))
 }
 .Hero{
   width: 50%;
@@ -18,14 +18,19 @@
   display: flex;
   justify-content: center;
 }
-
 .link{
   margin:10px 5px 5px 0;
 }
-
 ul{
   display: flex;
   justify-content: center;
+}
+.nav_listagem, .nav_Cadastrar{
+  font-size:1.2em;
+  background-color:rgba(92, 106, 121, 15%);
+  padding: 10px;
+  font-style: normal;
+  border: 1px solid rgba(1, 9, 17, 85%);
 }
 
 .cont_form{
@@ -39,7 +44,6 @@ ul{
   width: 100%;
   padding: 5px
 }
-
 .campo_1, .campo_2{
   display: flex;
   justify-content: flex-end;
@@ -47,11 +51,20 @@ ul{
 .lbl{
   margin-right: 10px;
 }
-
 .campo_3{
   width: 60%;
+  height: 60px;
   display: flex;
-  justify-content: flex-end;
+}
+.lbl_question{
+  align-self: center;
+}
+.rad_inpt{
+  align-self: center;
+}
+
+.rad_nao{
+  margin-top: 7px;
 }
 
 .rad_sim, .rad_nao{
