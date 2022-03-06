@@ -1,0 +1,24 @@
+A seguir, temos o escopo do projeto guiado que você irá desenvolver junto com nosso facilitador. Mas antes, você sabe o que é um escopo?
+
+O escopo do projeto (ou de um produto) é o conjunto de características que descrevem o resultado final esperado. Ou seja, é a descrição de quais são as expectativas em relação ao desenvolvimento e é preciso entendê-lo bem para que a entrega fique de acordo com o que foi alinhado com o cliente e/ou responsável pelo projeto.
+
+Abaixo você vai ler o escopo deste primeiro projeto guiado e depois vai programá-lo seguindo os vídeos do Fernando, então deve ficar mais fácil entender como funciona.
+
+Sobre o projeto
+
+O objetivo é criar uma aplicação que tenha as seguintes funcionalidades:
+
+Duas páginas: cadastro e listagem.
+Estrutura da página:
+Topo com uma imagem da Newtab Academy
+Menu superior com os dois links das páginas
+Cadastro de novos candidatos. 
+Cada registro possui os seguintes dados: Nome, Telefone, Experiência Prévia (Sim ou não).
+Validar o formulário para que todos os campos sejam preenchidos.
+Adicionar uma máscara no campo “Telefone”.
+Listagem de todos os candidatos respeitando a ordem de cadastro.
+Incluir o botão “Alterar” para poder editar um registro cadastro.
+Marcar os candidatos com experiência prévia com verde e os sem experiência com vermelho.
+A aplicação deverá ser responsiva.
+Persistir as transações no Local Storage.
+Observação: algumas partes são programadas com JavaScript (como por exemplo colocar máscara no campo de telefone e colorir as experiências dos candidatos) e por isso só serão feitas pelo facilitador no próximo módulo… neste o foco é apenas no HTML/CSS. Você pode fazer algumas personalizações caso queira, mas o importante é adquirir essa prática acompanhada agora, e no próximo projeto conseguir desenvolver um código 100% seu.
