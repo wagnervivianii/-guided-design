@@ -1,0 +1,33 @@
+.btn_alt_talbe{
+  width:50px;
+  font-size:15px;
+}
+
+.div_th_table{
+  display: flex;
+  justify-content: center;
+  padding:2rem
+}
+
+table{
+  width:70%;
+  align-self: center;
+  text-align: center;
+}
+
+table, .cont_tabela, .div_th_table{
+  border:2px solid black;
+}
+
+.data_tab{
+  font-size:1rem;
+}
+
+td, th{
+  line-height:2rem;
+  border: solid 2px black;
+}
+
+th{
+  font-weight: 600;
+}

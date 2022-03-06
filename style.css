@@ -51,19 +51,13 @@ ul{
   align-self: center;
 }
 
-.form{
-
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-}
-
 .cont_form{
   height:200px;
   width:100%;
   padding: 20px 0 15px 0;
   display: flex;
   justify-content: center;
+  align-items: baseline;
   font-size: 1.5rem;
   line-height:1.5rem;
 }
@@ -80,14 +74,20 @@ ul{
   margin-right: 10px;
 }
 .campo_3{
-  width: 60%;
-  height: 60px;
   display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  padding: 15px;
+  
 }
 .lbl_question{
   align-self: center;
 }
 .rad_inpt{
+  display: flex;
+  
   align-self: center;
 }
 
@@ -118,6 +118,7 @@ button{
     align-items: center;
     width: 100%;
     margin:0 auto;
+    padding-top:1rem;
   }
   .Hero{
     width: 100%;
@@ -135,6 +136,10 @@ button{
     margin-left: 20px;
     min-width:120px;
     max-width:80%;
+  }
+
+  .form{
+    width: 100%;
   }
 
   .cont_top_lsit{
@@ -173,6 +178,8 @@ button{
     height:auto;
     display: flex;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     line-height:30px;
   }
@@ -195,5 +202,9 @@ button{
   .nav_listagem{
     width:100%;
   }
-  
+
+  .inpt{
+    width: 100%;
+    padding: 8px;
+  }  
 }
