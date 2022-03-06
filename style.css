@@ -78,11 +78,48 @@ ul{
   display: flex;
   justify-content: flex-end;
   padding:12px;
-  
 }
-
-@media screen and (max-width: 420px){
-  .Cont_buttons{
-    display:block;  
+button{
+  width: 80%;
+  font-size: 2rem;;
+}
+@media screen and (max-width: 600px){
+  .cont_top_lsit{
+    margin:10px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+  }
+  .link{
+    margin-top:0;
+  }
+  .cont_form, .campo{
+    width: 99%;
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    text-align:center;
+    font-size: 1.5rem;
+  }
+  .inpt{
+    padding:10px;
+  }
+  .campo_3{
+    height:auto;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    line-height:30px;
+  }
+  .envio{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    width: 50%;
+    font-size: 2rem;;
   }
 }
