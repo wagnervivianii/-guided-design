@@ -14,18 +14,26 @@
   max-width:50%;
 }
 
-.main{
-  min-width:180px;
-  flex-wrap: wrap;
+.cont_top_lsit{
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
-.cont_form{
+
+.link{
+  margin:10px 5px 5px 0;
+}
+
+ul{
   display: flex;
-  justify-content: flex-end;
-  width: 70%;
-  margin-top:10px;
+  justify-content: center;
+}
+
+.cont_form{
+  width:100%;
+  padding: 15px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  margin:10px 0 10px 0;
 }
 .campo{
   width: 100%;
@@ -41,6 +49,27 @@
 }
 
 .campo_3{
+  width: 60%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
+}
+
+.rad_sim, .rad_nao{
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.envio{
+  margin-top: 8px;
+  width:50%;
+  display: flex;
+  justify-content: flex-end;
+  padding:12px;
+  
+}
+
+@media screen and (max-width: 420px){
+  .Cont_buttons{
+    display:block;  
+  }
 }
