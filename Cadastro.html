@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Document</title>
   </head>
   <body>
-    <section class="section_top" id="top"  >
+
+    <section class="section_top" id="top"  >  
       <header class="Hero">
         <div Cont_Img>
           <img class="img" src="https://www.newtab.academy/wp-content/uploads/2020/08/logo-colorido@2x.png" alt="">
         </div>
         <nav class="nav_home" >
-          <div class="home">
-            <a href="/index.html">
+          <div >
+            <a class="home" href="/index.html">
               <img src="https://img.icons8.com/ios-glyphs/30/000000/home.png"/>
             </a>
           </div>
@@ -26,16 +27,16 @@
     </section>
 
     <section class="cont_form">
-    <form  class="form" action="/Cadastro.html">
+    <form  class="form" onsubmit="registerData(event)">
 
       <div class="campo campo_1">
         <label for="nome" class="lbl_nome lbl">Nome  </label>
-        <input type="text" class="inpt input_nome">
+        <input type="text"  name="nome" class="inpt input_nome">
       </div>
 
       <div class="campo campo_2">
         <label for="telefone" class="lbl_endereco lbl">Telefone</label>
-        <input type="text" class="inpt input_endereço">
+        <input type="number" name="phone" class="inpt input_telefone">
       </div>
 
       <div class="campo campo_3">
@@ -45,22 +46,23 @@
         <div class="rad_inpt">
           <div class="rad_sim">
             <label for="SIM">SIM</label>
-            <input type="radio" class="inpt rad_inpt" id="SIM"name="opcao" >
+            <input type="radio" id="xp-yes" name="xp" value="true">
           </div>
         </div>
         
         <div class="rad_nao">
           <label for="NAO">NÃO</label>
-          <input type="radio" class="inpt rad_inpt" id="NAO" name="opcao">
+          <input type="radio" id="xp-no" name="xp" value="false" checked="checked" >
         </div>
    
       </div>
 
       <div class="envio" >
-        <button type="submit">Salvar</button>
+        <button id="btn" type="submit">Salvar</button>
       </div>
     </form>
     </section>
-  </body>
+
+    <script  src="./js/form.js" ></script>  </body>
 </html>
 

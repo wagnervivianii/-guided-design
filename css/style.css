@@ -91,11 +91,11 @@ ul{
   align-self: center;
 }
 
-.rad_nao{
+#xp-nao{
   margin-top: 7px;
 }
 
-.rad_sim, .rad_nao{
+#xp-yes, #xp-no{
   display: flex;
   justify-content: flex-end; 
 }
@@ -207,4 +207,8 @@ button{
     width: 100%;
     padding: 8px;
   }  
+}
+
+.cont_tabela{
+  margin-top: 15px;
 }
