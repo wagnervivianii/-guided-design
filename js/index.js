@@ -24,7 +24,7 @@ function drawTable() {
       <tr class="dinamic-content" style="background-color: ${(person % 2 == 0) ? '#836FFF': '#ffffff'}; color: #000">
         <td>${listOfPeople[person].name}</td>
         <td>${listOfPeople[person].tel}</td>
-        <td style="color: ${(listOfPeople[person].xp == 'true' )  ? "#006400" : "#FF0000" }; font-weight: bold; " >${listOfPeople[person].xp}<td>
+        <td style="color: ${(listOfPeople[person].xp == true )  ? "#006400" : "#FF0000" }; font-weight: bold; " >${listOfPeople[person].xp}<td>
           <button onclick="deleteUser(${person})"> Excluir </button>
           <a href="./Cadastro.html?person=${person}" ">Editar</a>
         </td>
