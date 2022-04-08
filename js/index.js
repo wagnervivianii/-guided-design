@@ -21,12 +21,12 @@ function drawTable() {
   // Alimentando o index atravéz do innerHTML com os elemntos constantes no array de objetos listofpeople
   for(person in listOfPeople) {
       document.querySelector('table tbody').innerHTML +=`<tr>
-      <tr class="dinamic-content" style="background-color: ${(person % 2 == 0) ? '#836FFF': '#ffffff'}; color: #000">
+      <tr class="dinamic-content" style="background-color: ${(person % 2 == 0) ? '#FAF0E6	': '#ffffff'}; color: #000">
         <td>${listOfPeople[person].name}</td>
         <td>${listOfPeople[person].tel}</td>
         <td style="color: ${(listOfPeople[person].xp == true )  ? "#006400" : "#FF0000" }; font-weight: bold; " >${listOfPeople[person].xp}<td>
-          <button onclick="deleteUser(${person})"> Excluir </button>
-          <a href="./Cadastro.html?person=${person}" ">Editar</a>
+          <button onclick="deleteUser(${person})" class="excluir"> Excluir </button>
+          <a href="./Cadastro.html?person=${person}" class='editar'">Editar</a>
         </td>
       </tr>
     <br`
